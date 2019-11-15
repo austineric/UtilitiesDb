@@ -102,7 +102,7 @@ DELETE FROM dbo.CalendarYear
 DECLARE @Year INT
 DECLARE @YearBegin DATETIME2
 
-SET @Year=2010
+SET @Year=2000
 SET @YearBegin=CAST(CAST(@year AS CHAR(4)) + '0101' AS DATETIME2)
 
 WHILE @Year<=2030
